@@ -26,9 +26,15 @@
 ```
 
 ## รูปหน้าจอทั้งหมด
+
 ![index](./Indexpic.png)
 ![about](./aboutpic.png)
 ![service](./servicepic.png)
 ![contact](./contactpic.png)
 
+## Link ของแต่ละหน้า
 
+[หน้าหลัก](index.html)
+[เกี่ยวกับ](about.html)
+[บริการ](services.html)
+[ติดต่อ](contact.html)
