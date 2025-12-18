@@ -5,32 +5,34 @@
 
 ## โครงสร้างไฟล์
 
-```WORK/
+```
+WORK/
+├── images/
+│   ├── aboutpic.png
+│   ├── contactpic.png
+│   ├── duckman.jpg
+│   ├── Ezqelusia mith pubg-210804-144741.jpg
+│   ├── hon.jpg
+│   ├── images.jpg
+│   ├── indexpic.png
+│   ├── julio mith-210524-155914.jpg
+│   ├── lineupmith.png
+│   ├── MiTH_e-Sportslogo_square.png
+│   └── servicepic.png
 ├── .gitignore
-├── about.html
-├── aboutpic.png
-├── contact.html
-├── contactpic.png
-├── duckman.jpg
-├── Ezqelusia mith pubg-210804-144741.jpg
-├── hon.jpg
-├── images.jpg
-├── index.html
-├── Indexpic.png
-├── julio mith-210524-155914.jpg
-├── lineupmith.png
-├── MiTH_e-Sportslogo_square.png
 ├── README.md
-├── servicespic.png
+├── index.html
+├── about.html
+├── contact.html
 └── services.html
 ```
 
 ## รูปหน้าจอทั้งหมด
 
-![index](./Indexpic.png)
-![about](./aboutpic.png)
-![service](./servicepic.png)
-![contact](./contactpic.png)
+![index](images/Indexpic.png)
+![about](images/aboutpic.png)
+![service](images/servicepic.png)
+![contact](images/contactpic.png)
 
 ## Link ของแต่ละหน้า
 
