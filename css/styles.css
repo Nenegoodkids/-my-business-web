@@ -277,3 +277,71 @@ h2 {
   background: #3b1845;
   border-radius: 50px; /* ทรงมนสวยงาม */
 }
+
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.service-cards .card {
+  text-align: center;
+  padding: 30px;
+  border-top: 4px solid #ffb800; /* เพิ่มแถบสีทองด้านบน */
+}
+
+.service-cards .icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 15px;
+}
+
+/* การตกแต่งตาราง */
+.table-wrapper {
+  overflow-x: auto; /* ให้เลื่อนซ้ายขวาได้ในมือถือ */
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  min-width: 600px;
+}
+
+th,
+td {
+  padding: 15px 20px;
+  border: 1px solid #eee;
+  text-align: center;
+}
+
+thead {
+  background-color: #3b1845;
+  color: white;
+}
+
+/* ตกแต่งแถว Highlight สำหรับระดับ Pro */
+th.highlight,
+td.highlight {
+  background-color: #fffdf5;
+  font-weight: bold;
+  color: #3b1845;
+  border-left: 2px solid #ffb800;
+  border-right: 2px solid #ffb800;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* หัวข้อตารางแนวตั้ง (Column แรก) */
+td:first-child {
+  text-align: left;
+  font-weight: bold;
+  background-color: #fcfcfc;
+  width: 250px;
+}
