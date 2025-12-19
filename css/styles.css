@@ -208,6 +208,15 @@ h2 {
   font-size: 1.8rem;
 }
 
+h3 {
+  color: #3b1845;
+  border-left: 5px solid #ffb800;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+}
+
 /* จัดการรูป Line-up ใหญ่ */
 .main-lineup {
   width: 100%;
@@ -268,16 +277,32 @@ h2 {
   letter-spacing: 1px;
 }
 
-/* ปุ่มย้อนกลับจัดให้อยู่ตรงกลาง */
 .action-bar {
-  text-align: center;
+  display: flex; /* เปิดใช้งาน Flexbox */
+  justify-content: space-between; /* กระจายไอเทมให้ห่างกัน (ซ้าย กลาง ขวา) */
+  align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
   margin-top: 40px;
+  padding: 0 20px;
 }
 
 .btn-back {
   padding: 15px 40px;
-  background: #3b1845;
-  border-radius: 50px; /* ทรงมนสวยงาม */
+  border-radius: 50px;
+}
+
+.servicebtn {
+  padding: 15px 40px;
+  border-radius: 50px;
+}
+
+.contactbtn {
+  padding: 15px 40px;
+  border-radius: 50px;
+}
+
+.aboutbtn {
+  padding: 15px 40px;
+  border-radius: 50px;
 }
 
 .service-cards {
