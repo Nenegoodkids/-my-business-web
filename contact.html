@@ -4,7 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Contact</title>
+    <title>Contact - MiTH Esport</title>
+    <style>
+      /* ปรับแต่งฟอร์มให้ดูทันสมัย */
+      .contact-form {
+        background: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        margin: 20px 0;
+        border-left: 5px solid #ffb800;
+      }
+
+      input[type="email"] {
+        width: 100%;
+        padding: 12px;
+        margin: 10px 0;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+
+      /* ปรับแต่งปุ่มส่งให้เหมือนปุ่มอื่นๆ ในเว็บ */
+      input[type="submit"] {
+        background: linear-gradient(135deg, #3b1845 0%, #25102d 100%);
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      input[type="submit"]:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(59, 24, 69, 0.3);
+      }
+
+      /* ปรับแต่ง Map ให้เต็มความกว้างและโค้งมน */
+      .map-container {
+        margin-top: 20px;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      iframe {
+        width: 100%;
+        display: block;
+      }
+
+      .contact-info {
+        margin-bottom: 30px;
+      }
+
+      .contact-info li {
+        list-style: none;
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+      }
+    </style>
   </head>
   <body>
     <header id="header">
@@ -25,39 +85,64 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <h2><b>Contact Us</b></h2>
-      <p>
-        ถ้าคุณมีคำถามหรือข้อเสนอแนะใด ๆ เกี่ยวกับ MiTH Esport
-        กรุณาติดต่อเราผ่านช่องทางดังต่อไปนี้:
-      </p>
-      <ul>
-        <li>Email: 67160186@go.buu.ac.th</li>
-        <li>Phone: +66 1234 5678</li>
-      </ul>
-      <p>
-        หากต้องการรับข่าวสารและอัปเดตเกี่ยวกับ MiTH Esport
-        กรุณาเขียนอีเมลของท่านที่นี่:
-      </p>
-      <form action="contact" method="post">
-        <label for="email">Email:</label><br />
-        <input type="email" id="email" name="email" required /><br /><br />
-        <input type="submit" value="ส่งอีเมล" />
-      </form>
-      <h2><b>ที่อยู่บริษัท</b></h2>
-      <p>123 ถนนนี้นี้ แขวงนั้นนั้น เขตตรงนู้น กรุงเทพมหานคร 10110 ประเทศไทย</p>
-      <h2><b>แผนที่บริษัท</b></h2>
-      <h2><b>แผนที่บริษัท</b></h2>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.881767655054!2d100.523186!3d13.736717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29992e36b8c1b%3A0x24f8206dfa8b32f9!2sBangkok!5e0!3m2!1sth!2sth!4v1700000000000"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-      >
-      </iframe>
-      <h6>(สถานที่จริงๆไม่ใช่ที่นี่ แต่ผมใช้ที่นี่เป็นตัวอย่างครับ)</h6>
+
+    <main class="container">
+      <section class="contact-info">
+        <h2><b>Contact Us</b></h2>
+        <p>
+          ถ้าคุณมีคำถามหรือข้อเสนอแนะใด ๆ เกี่ยวกับ MiTH Esport
+          กรุณาติดต่อเราผ่านช่องทางดังต่อไปนี้:
+        </p>
+        <ul>
+          <li><strong>Email:</strong> 67160186@go.buu.ac.th</li>
+          <li><strong>Phone:</strong> +66 1234 5678</li>
+        </ul>
+      </section>
+
+      <section class="contact-form">
+        <h2><b>Newsletter</b></h2>
+        <p>
+          หากต้องการรับข่าวสารและอัปเดตเกี่ยวกับ MiTH Esport
+          กรุณากรอกอีเมลของท่าน:
+        </p>
+        <form action="contact" method="post">
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+            required
+          />
+          <input type="submit" value="ส่งข้อมูล" />
+        </form>
+      </section>
+
+      <section>
+        <h2><b>ที่อยู่และแผนที่</b></h2>
+        <p>
+          123 ถนนนี้นี้ แขวงนั้นนั้น เขตตรงนู้น กรุงเทพมหานคร 10110 ประเทศไทย
+        </p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.550186419747!2d100.5284507!3d13.7456107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQ0JzQ0LjIiTiAxMDDCsDMxJzQyLjQiRQ!5e0!3m2!1sth!2sth!4v1620000000000!5m2!1sth!2sth"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <h6 style="margin-top: 10px; color: #888">
+          (สถานที่จริงๆไม่ใช่ที่นี่ แต่ผมใช้ที่นี่เป็นตัวอย่างครับ)
+        </h6>
+      </section>
+
+      <div class="action-bar">
+        <a href="index.html">
+          <button class="btn-back">ย้อนกลับหน้าหลัก</button>
+        </a>
+      </div>
     </main>
   </body>
 </html>

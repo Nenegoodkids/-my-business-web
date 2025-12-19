@@ -324,7 +324,7 @@ thead {
   color: white;
 }
 
-/* ตกแต่งแถว Highlight สำหรับระดับ Pro */
+/* Pro */
 th.highlight,
 td.highlight {
   background-color: #fffdf5;
@@ -344,4 +344,82 @@ td:first-child {
   font-weight: bold;
   background-color: #fcfcfc;
   width: 250px;
+}
+
+main.container {
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+/* ตกแต่งกล่องฟอร์ม Newsletter */
+.contact-form {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin: 30px 0;
+  border-left: 6px solid #ffb800; /* เส้นสีทองด้านข้างตามธีม */
+}
+
+.contact-form h2 {
+  border-left: none; /* เอาขอบเดิมออกเพราะมีขอบกล่องแล้ว */
+  padding-left: 0;
+}
+
+/* ปรับแต่งช่องกรอกอีเมล */
+.contact-form input[type="email"] {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.contact-form input[type="email"]:focus {
+  border-color: #3b1845;
+  outline: none;
+  box-shadow: 0 0 8px rgba(59, 24, 69, 0.1);
+}
+
+/* ปรับแต่งรายชื่อติดต่อ */
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.contact-info li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-info li strong {
+  color: #3b1845;
+  min-width: 80px;
+}
+
+/* ตกแต่งส่วนแผนที่ */
+.map-container {
+  margin-top: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.map-container iframe {
+  width: 100%;
+  display: block;
+}
+
+/* ข้อความหมายเหตุเล็กๆ */
+h6 {
+  color: #999;
+  font-weight: 400;
+  margin-top: 10px;
 }
