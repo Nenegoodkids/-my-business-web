@@ -256,7 +256,7 @@ h3 {
 .player-card img {
   width: 100%;
   height: 250px;
-  object-fit: cover; /* บังคับให้รูปตัดพอดีกรอบ ไม่เบี้ยว */
+  object-fit: cover; 
   border-bottom: 3px solid #3b1845;
 }
 
