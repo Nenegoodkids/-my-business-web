@@ -18,7 +18,13 @@ WORK/
 │   ├── julio mith-210524-155914.jpg
 │   ├── lineupmith.png
 │   ├── MiTH_e-Sportslogo_square.png
-│   └── servicepic.png
+│   ├── servicepic.png
+│   └── WebSiteImages/
+│       ├──1.png
+│       ├──2.png
+│       ├──3.png
+│       ├──4.png
+│       └──5.png
 ├── .gitignore
 ├── README.md
 ├── index.html
@@ -27,12 +33,24 @@ WORK/
 └── services.html
 ```
 
-## รูปหน้าจอทั้งหมด
+## รูปหน้าจอทั้งหมด(ก่อน css)
 
 ![index](images/Indexpic.png)
 ![about](images/aboutpic.png)
 ![service](images/servicepic.png)
 ![contact](images/contactpic.png)
+
+## รูปหน้าจอทั้งหมด(หลัง css)
+
+index.html
+![index](images/WebSiteImages/1.png)
+about.html
+![about](images/WebSiteImages/2.png)
+![about](images/WebSiteImages/3.png)
+service.html
+![service](images/WebSiteImages/4.png)
+contact.html
+![contact](images/WebSiteImages/5.png)
 
 ## Link ของแต่ละหน้า
 
