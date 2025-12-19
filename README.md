@@ -11,11 +11,11 @@ WORK/
 │   ├── aboutpic.png
 │   ├── contactpic.png
 │   ├── duckman.jpg
-│   ├── Ezqelusia mith pubg-210804-144741.jpg
+│   ├── Ezqelusia.jpg
 │   ├── hon.jpg
 │   ├── images.jpg
 │   ├── indexpic.png
-│   ├── julio mith-210524-155914.jpg
+│   ├── julio.jpg
 │   ├── lineupmith.png
 │   ├── MiTH_e-Sportslogo_square.png
 │   ├── servicepic.png
