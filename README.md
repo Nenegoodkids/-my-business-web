@@ -43,14 +43,14 @@ WORK/
 ## รูปหน้าจอทั้งหมด(หลัง css)
 
 index.html
-![index](images/WebSiteImages/1.png)
+![indexcss](images/WebSiteImages/1.png)
 about.html
-![about](images/WebSiteImages/2.png)
-![about](images/WebSiteImages/3.png)
+![aboutcss](images/WebSiteImages/2.png)
+![aboutcss2](images/WebSiteImages/3.png)
 service.html
-![service](images/WebSiteImages/4.png)
+![servicecss](images/WebSiteImages/4.png)
 contact.html
-![contact](images/WebSiteImages/5.png)
+![contactcss](images/WebSiteImages/5.png)
 
 ## Link ของแต่ละหน้า
 
