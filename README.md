@@ -19,12 +19,11 @@ WORK/
 │   ├── lineupmith.png
 │   ├── MiTH_e-Sportslogo_square.png
 │   ├── servicepic.png
-│   └── WebSiteImages/
-│       ├──1.png
-│       ├──2.png
-│       ├──3.png
-│       ├──4.png
-│       └──5.png
+│   ├── 1.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   └── 5.png
 ├── .gitignore
 ├── README.md
 ├── index.html
@@ -35,7 +34,7 @@ WORK/
 
 ## รูปหน้าจอทั้งหมด(ก่อน css)
 
-![index](images/Indexpic.png)
+![index](images/indexpic.png)
 ![about](images/aboutpic.png)
 ![service](images/servicepic.png)
 ![contact](images/contactpic.png)
@@ -43,14 +42,14 @@ WORK/
 ## รูปหน้าจอทั้งหมด(หลัง css)
 
 index.html
-![indexcss](images/WebSiteImages/1.png)
+![indexcss](images/1.png)
 about.html
-![aboutcss](images/WebSiteImages/2.png)
-![aboutcss2](images/WebSiteImages/3.png)
+![aboutcss](images/2.png)
+![aboutcss2](images/3.png)
 service.html
-![servicecss](images/WebSiteImages/4.png)
+![servicecss](images/4.png)
 contact.html
-![contactcss](images/WebSiteImages/5.png)
+![contactcss](images/5.png)
 
 ## Link ของแต่ละหน้า
 
