@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -6,21 +5,20 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fcfcfc;
   color: #333;
   line-height: 1.6;
 }
 
-
 #header {
-  background: #3B1845; 
+  background: #25102d;
   color: white;
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #5a2d6d;
+  border-bottom: 2px solid #692d91;
 }
 
 .header-brand {
@@ -61,11 +59,10 @@ body {
   color: white;
 }
 
-
 .hero {
-  height: 60vh;
+  height: 50vh;
   /* ไล่เฉดสีม่วงเข้ม */
-  background: linear-gradient(180deg, #3B1845 0%, #25102d 100%);
+  background: linear-gradient(180deg, #3b1845 0%, #25102d 100%);
   color: white;
   display: flex;
   flex-direction: column;
@@ -78,12 +75,12 @@ body {
 .hero h2 {
   font-size: 3rem;
   margin-bottom: 10px;
-  color: #FFFFFF; /* เปลี่ยนเป็นสีขาวให้ชัด */
+  color: #ffffff; /* เปลี่ยนเป็นสีขาวให้ชัด */
 }
 
 .hero p {
   font-size: 1.2rem;
-  color: #d1d1d1; /* สีเทาอ่อนให้อ่านง่ายแต่ไม่แย่งซีนหัวข้อ */
+  color: #d1d1d1; /* สีเทาอ่อน */
   max-width: 600px;
 }
 
@@ -94,8 +91,8 @@ body {
 }
 
 .section h2 {
-  color: #3B1845;
-  border-left: 5px solid #FFB800; /* เพิ่มแถบสีทองให้ดูเป็น Esport */
+  color: #3b1845;
+  border-left: 5px solid #ffb800;
   padding-left: 15px;
   margin-bottom: 30px;
 }
@@ -111,32 +108,29 @@ body {
   transition: all 0.3s ease;
 }
 
-/* List Pseudo-classes Styling */
-.section ul li:first-child {
-  font-weight: bold;
-  color: #3B1845;
-  border-left: 3px solid #FFB800;
-  padding-left: 10px;
+.section ul {
+  font-size: 1.1rem;
+  padding-left: 20px;
+  list-style-type: disc; /* แสดงจุดหน้าข้อความตลอดเวลา */
 }
 
-.section ul li:last-child {
-  margin-bottom: 0;
-  border-bottom: 2px solid #f0f0f0;
-  padding-bottom: 10px;
+.section li {
+  margin-bottom: 10px;
+  color: #555;
+  padding: 2px 15px;
+  transition: all 0.3s ease;
+
+  /* สร้างเส้นขอบแบบโปร่งใสไว้ก่อน เพื่อไม่ให้ข้อความกระตุกเวลาเมาส์วาง */
+  border-left: 5px solid transparent;
 }
 
-.section ul li:nth-child(even) {
-  background-color: #f9f9f9;
-  padding: 8px;
-  border-radius: 4px;
-}
-
+/* เมื่อเอาเมาส์วาง (Hover) */
 .section ul li:hover {
-  color: #3B1845;
-  transform: translateX(5px);
-  padding-left: 10px;
+  color: #3b1845;
+  background-color: #f9f9f9; /* เพิ่มพื้นหลังจางๆ ให้ดูรู้ว่ากำลังชี้ */
+  border-left: 5px solid #ffb800; /* แสดงแถบสีเหลืองขึ้นมา */
+  transform: translateX(10px); /* ขยับไปทางขวา */
 }
-
 /* Card Styling */
 .card {
   background: white;
@@ -151,7 +145,7 @@ body {
 .card:hover {
   box-shadow: 0 8px 16px rgba(59, 24, 69, 0.2);
   transform: translateY(-5px);
-  border-color: #3B1845;
+  border-color: #3b1845;
 }
 
 /* Button Styling */
@@ -159,7 +153,7 @@ body {
 button {
   display: inline-block;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #3B1845 0%, #5a2d6d 100%);
+  background: linear-gradient(135deg, #462c14 0%, #6d512d 100%);
   color: white;
   border: none;
   border-radius: 5px;
@@ -172,7 +166,7 @@ button {
 
 .btn:hover,
 button:hover {
-  background: linear-gradient(135deg, #5a2d6d 0%, #3B1845 100%);
+  background: linear-gradient(135deg, #5a2d6d 0%, #3b1845 100%);
   box-shadow: 0 6px 12px rgba(59, 24, 69, 0.3);
   transform: translateY(-2px);
 }
